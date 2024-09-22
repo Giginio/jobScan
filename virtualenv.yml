@@ -3,7 +3,7 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - python=3.12.6
+  - python=3.6.0
   - pip
   - numpy
   - pandas
@@ -18,13 +18,7 @@ dependencies:
   - jupyter=1.0.0
 
   - pip:
-      - keras
-      - tensorflow
-      - scikit-learn
-      - scikeras
-      - matplotlib
       - mysql-connector-python
-      - geopandas
       - beautifulsoup4
       - openrouteservice
       - xlwt
